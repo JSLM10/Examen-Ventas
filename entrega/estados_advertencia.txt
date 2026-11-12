@@ -1,0 +1,7 @@
+{}   | examen_ventas | advertencia_121830 | 2026-11-12            | 2026-11-12            | None     | True             | None                  | 2026-11-12            | manual   | None       | queued
+dag_id        | execution_date            | task_id            | state   | start_date                       | end_date                        
+==============+===========================+====================+=========+==================================+=================================
+examen_ventas | 2026-11-12T12:18:34+00:00 | verificar_frescura | success | 2026-11-12T12:18:38.085045+00:00 | 2026-11-12T12:18:40.970374+00:00
+examen_ventas | 2026-11-12T12:18:34+00:00 | construir_resumen  | success | 2026-11-12T12:18:44.326046+00:00 | 2026-11-12T12:18:47.687978+00:00
+                                                                                                                                              
+RUN_ID=advertencia_121830

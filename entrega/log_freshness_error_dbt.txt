@@ -1,0 +1,12 @@
+12:17:31.724046 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 
+12:17:32.055996 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+12:17:32.548293 [info ] [MainThread]: Found 2 models, 17 data tests, 1 source, 426 macros
+12:17:32.550502 [info ] [MainThread]: 
+12:17:32.551026 [info ] [MainThread]: Concurrency: 1 threads (target='local')
+12:17:32.551350 [info ] [MainThread]: 
+12:17:32.634781 [info ] [Thread-1 (]: 1 of 1 START freshness of ventas_raw.ventas .................................... [RUN]
+12:17:32.655196 [error] [Thread-1 (]: 1 of 1 ERROR STALE freshness of ventas_raw.ventas .............................. [ERROR STALE in 0.02s]
+12:17:32.663957 [info ] [MainThread]: 
+12:17:32.664305 [info ] [MainThread]: Finished running 1 source in 0 hours 0 minutes and 0.11 seconds (0.11s).
+12:17:32.691941 [info ] [MainThread]: Done.
+12:17:32.695094 [debug] [MainThread]: Command `dbt source freshness` failed at 12:17:32.694958 after 1.03 seconds
